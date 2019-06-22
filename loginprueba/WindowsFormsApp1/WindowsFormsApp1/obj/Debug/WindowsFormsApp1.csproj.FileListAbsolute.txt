@@ -1,0 +1,10 @@
+D:\Proyectos progra\Proyecto_Bimestral\loginprueba\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Proyectos progra\Proyecto_Bimestral\loginprueba\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Proyectos progra\Proyecto_Bimestral\loginprueba\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Proyectos progra\Proyecto_Bimestral\loginprueba\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\Proyectos progra\Proyecto_Bimestral\loginprueba\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\Proyectos progra\Proyecto_Bimestral\loginprueba\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Proyectos progra\Proyecto_Bimestral\loginprueba\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Proyectos progra\Proyecto_Bimestral\loginprueba\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Proyectos progra\Proyecto_Bimestral\loginprueba\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Proyectos progra\Proyecto_Bimestral\loginprueba\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
