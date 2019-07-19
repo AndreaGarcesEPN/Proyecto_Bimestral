@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using menu;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,8 +35,18 @@ namespace Proyecto_Login
                 MessageBoxIcon icono = MessageBoxIcon.Error;
                 MessageBoxButtons botones = MessageBoxButtons.OK;
                 MessageBox.Show(incorrecto, txtincorrecto, botones, icono);
+                
+
+            }else
+            { //se declara y se agrega una referencia
+                MenuPrincipal menu = new MenuPrincipal();
+                menu.Show();
             }
+            
         }
+       
+
+
 
         private void TextBoxClave_TextChanged(object sender, EventArgs e)
         {

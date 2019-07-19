@@ -1,6 +1,6 @@
 ﻿namespace menu
 {
-    partial class Form1
+    partial class MenuPrincipal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnIngresoEmpleado = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnConsultalEmpleado = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnIngresoEmpleado
             // 
-            this.button1.Location = new System.Drawing.Point(62, 74);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(173, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "INGRESAR EMPLEADO";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.btnIngresoEmpleado.Location = new System.Drawing.Point(62, 74);
+            this.btnIngresoEmpleado.Name = "btnIngresoEmpleado";
+            this.btnIngresoEmpleado.Size = new System.Drawing.Size(173, 23);
+            this.btnIngresoEmpleado.TabIndex = 0;
+            this.btnIngresoEmpleado.Text = "INGRESAR EMPLEADO";
+            this.btnIngresoEmpleado.UseVisualStyleBackColor = true;
+            this.btnIngresoEmpleado.Click += new System.EventHandler(this.BtnIngresoEmpleado_Click);
             // 
             // button2
             // 
@@ -64,14 +64,15 @@
             this.button3.Text = "MODIFICAR EMPLEADO";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnConsultalEmpleado
             // 
-            this.button4.Location = new System.Drawing.Point(312, 74);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(168, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "CONSULTAR EMPLEDADO";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnConsultalEmpleado.Location = new System.Drawing.Point(312, 74);
+            this.btnConsultalEmpleado.Name = "btnConsultalEmpleado";
+            this.btnConsultalEmpleado.Size = new System.Drawing.Size(168, 23);
+            this.btnConsultalEmpleado.TabIndex = 3;
+            this.btnConsultalEmpleado.Text = "CONSULTAR EMPLEDADO";
+            this.btnConsultalEmpleado.UseVisualStyleBackColor = true;
+            this.btnConsultalEmpleado.Click += new System.EventHandler(this.BtnConsultalEmpleado_Click);
             // 
             // button7
             // 
@@ -92,18 +93,18 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "MODULO ADMINISTRATIDO , REGISTRO DE EMPLEADOS";
             // 
-            // Form1
+            // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(506, 270);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnConsultalEmpleado);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Controls.Add(this.btnIngresoEmpleado);
+            this.Name = "MenuPrincipal";
             this.Text = "Menu Admin";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -112,10 +113,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnIngresoEmpleado;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnConsultalEmpleado;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label1;
     }

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto Login", "Proyecto Login\Proyecto Login.csproj", "{1CAED8A2-8512-4222-A570-466C1B6A61E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "menu", "..\menu\menu\menu.csproj", "{E4A365E9-33FC-4B3E-8FD1-1195E316E8E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1CAED8A2-8512-4222-A570-466C1B6A61E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CAED8A2-8512-4222-A570-466C1B6A61E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CAED8A2-8512-4222-A570-466C1B6A61E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A365E9-33FC-4B3E-8FD1-1195E316E8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A365E9-33FC-4B3E-8FD1-1195E316E8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A365E9-33FC-4B3E-8FD1-1195E316E8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A365E9-33FC-4B3E-8FD1-1195E316E8E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
