@@ -18,3 +18,4 @@ D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.csproj.Gen
 D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.csproj.CoreCompileInputs.cache
 D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.exe
 D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.pdb
+D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.INGRESO_DE_EMPLEADO.resources

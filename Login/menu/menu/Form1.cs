@@ -17,10 +17,10 @@ namespace menu
             InitializeComponent();
         }
 
-        
-
-       
-
-        
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Form ingresoEmpleado = new INGRESO_DE_EMPLEADO();
+            ingresoEmpleado.Show();
+        }
     }
 }
