@@ -1,0 +1,10 @@
+D:\Proyectos progra\Proyecto_Bimestral\menu\menu\bin\Debug\menu.exe.config
+D:\Proyectos progra\Proyecto_Bimestral\menu\menu\bin\Debug\menu.exe
+D:\Proyectos progra\Proyecto_Bimestral\menu\menu\bin\Debug\menu.pdb
+D:\Proyectos progra\Proyecto_Bimestral\menu\menu\obj\Debug\menu.csprojAssemblyReference.cache
+D:\Proyectos progra\Proyecto_Bimestral\menu\menu\obj\Debug\menu.Form1.resources
+D:\Proyectos progra\Proyecto_Bimestral\menu\menu\obj\Debug\menu.Properties.Resources.resources
+D:\Proyectos progra\Proyecto_Bimestral\menu\menu\obj\Debug\menu.csproj.GenerateResource.cache
+D:\Proyectos progra\Proyecto_Bimestral\menu\menu\obj\Debug\menu.csproj.CoreCompileInputs.cache
+D:\Proyectos progra\Proyecto_Bimestral\menu\menu\obj\Debug\menu.exe
+D:\Proyectos progra\Proyecto_Bimestral\menu\menu\obj\Debug\menu.pdb
