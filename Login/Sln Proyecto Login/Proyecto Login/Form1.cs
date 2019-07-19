@@ -41,6 +41,7 @@ namespace Proyecto_Login
             { //se declara y se agrega una referencia
                 MenuPrincipal menu = new MenuPrincipal();
                 menu.Show();
+               
             }
             
         }
