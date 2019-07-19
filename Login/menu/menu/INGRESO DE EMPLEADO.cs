@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace menu
 {
-    public partial class Form1 : Form
+    public partial class INGRESO_DE_EMPLEADO : Form
     {
-        public Form1()
+        public INGRESO_DE_EMPLEADO()
         {
             InitializeComponent();
         }
-
-        
-
-       
-
-        
     }
 }
