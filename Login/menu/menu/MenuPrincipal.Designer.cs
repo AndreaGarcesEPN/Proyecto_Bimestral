@@ -81,7 +81,7 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(210, 23);
             this.button7.TabIndex = 6;
-            this.button7.Text = "CERRAR MODO ADMINISTRADOR";
+            this.button7.Text = "CERRAR  SESION ADMINISTRADOR";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.Button7_Click);
             // 

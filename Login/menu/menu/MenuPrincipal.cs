@@ -39,7 +39,7 @@ namespace menu
         }
 
 
-        //para cerrar secion y volver al login
+        //para cerrar sesion y volver al login
         //copie la fomr1 que es el login a la solucion menu caso contrario no encontraba la clase 
          private void Button7_Click(object sender, EventArgs e)
         {
