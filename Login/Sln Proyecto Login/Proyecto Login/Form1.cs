@@ -40,10 +40,13 @@ namespace Proyecto_Login
             }else
             { //se declara y se agrega una referencia
                 MenuPrincipal menu = new MenuPrincipal();
-                menu.Show();
+                menu.Visible = true;
+                Visible=false;
                
+        
             }
-            
+           
+
         }
        
 
