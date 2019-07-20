@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proyecto_Login;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,9 +25,30 @@ namespace menu
         }
 
         private void BtnConsultalEmpleado_Click(object sender, EventArgs e)
-        {
+        {//abre el menu para consultar un empleado
             Form consultaEmpleado = new ConsultaDeEmpleado();
             consultaEmpleado.Show();
+          
+        }
+
+        private void BtnEliminarEmpleado_Click(object sender, EventArgs e)
+        { // abre el menu de eliminar empleado
+            Form eliminarempleado = new EliminarEmpleado();
+            eliminarempleado.Visible = true;
+            
+        }
+
+
+        //para cerrar secion y volver al login
+        //copie la fomr1 que es el login a la solucion menu caso contrario no encontraba la clase 
+         private void Button7_Click(object sender, EventArgs e)
+        {
+            
+            Form1 login = new Form1();
+            login.Show();
+            this.Dispose();//elimina o limpia servicios qque se esten usando
+
+
         }
     }
 }

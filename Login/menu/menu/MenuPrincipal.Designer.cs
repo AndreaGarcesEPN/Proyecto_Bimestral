@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.btnIngresoEmpleado = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnEliminarEmpleado = new System.Windows.Forms.Button();
+            this.btnModificarEmpleado = new System.Windows.Forms.Button();
             this.btnConsultalEmpleado = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,23 +46,24 @@
             this.btnIngresoEmpleado.UseVisualStyleBackColor = true;
             this.btnIngresoEmpleado.Click += new System.EventHandler(this.BtnIngresoEmpleado_Click);
             // 
-            // button2
+            // btnEliminarEmpleado
             // 
-            this.button2.Location = new System.Drawing.Point(62, 139);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(173, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "ELIMINAR EMPLEADO";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnEliminarEmpleado.Location = new System.Drawing.Point(62, 139);
+            this.btnEliminarEmpleado.Name = "btnEliminarEmpleado";
+            this.btnEliminarEmpleado.Size = new System.Drawing.Size(173, 23);
+            this.btnEliminarEmpleado.TabIndex = 1;
+            this.btnEliminarEmpleado.Text = "ELIMINAR EMPLEADO";
+            this.btnEliminarEmpleado.UseVisualStyleBackColor = true;
+            this.btnEliminarEmpleado.Click += new System.EventHandler(this.BtnEliminarEmpleado_Click);
             // 
-            // button3
+            // btnModificarEmpleado
             // 
-            this.button3.Location = new System.Drawing.Point(312, 139);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(168, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "MODIFICAR EMPLEADO";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnModificarEmpleado.Location = new System.Drawing.Point(312, 139);
+            this.btnModificarEmpleado.Name = "btnModificarEmpleado";
+            this.btnModificarEmpleado.Size = new System.Drawing.Size(168, 23);
+            this.btnModificarEmpleado.TabIndex = 2;
+            this.btnModificarEmpleado.Text = "MODIFICAR EMPLEADO";
+            this.btnModificarEmpleado.UseVisualStyleBackColor = true;
             // 
             // btnConsultalEmpleado
             // 
@@ -82,6 +83,7 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "CERRAR MODO ADMINISTRADOR";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.Button7_Click);
             // 
             // label1
             // 
@@ -101,8 +103,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.btnConsultalEmpleado);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnModificarEmpleado);
+            this.Controls.Add(this.btnEliminarEmpleado);
             this.Controls.Add(this.btnIngresoEmpleado);
             this.Name = "MenuPrincipal";
             this.Text = "Menu Admin";
@@ -114,8 +116,8 @@
         #endregion
 
         private System.Windows.Forms.Button btnIngresoEmpleado;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnEliminarEmpleado;
+        private System.Windows.Forms.Button btnModificarEmpleado;
         private System.Windows.Forms.Button btnConsultalEmpleado;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label1;

@@ -34,13 +34,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAgregarEmpleado = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.btnCancelarIngresoEmpleado = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -104,14 +105,14 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Direccion Domicilio:";
             // 
-            // button1
+            // btnAgregarEmpleado
             // 
-            this.button1.Location = new System.Drawing.Point(322, 325);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAgregarEmpleado.Location = new System.Drawing.Point(124, 270);
+            this.btnAgregarEmpleado.Name = "btnAgregarEmpleado";
+            this.btnAgregarEmpleado.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregarEmpleado.TabIndex = 6;
+            this.btnAgregarEmpleado.Text = "Agregar";
+            this.btnAgregarEmpleado.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -156,18 +157,29 @@
             this.textBox6.Size = new System.Drawing.Size(162, 20);
             this.textBox6.TabIndex = 12;
             // 
+            // btnCancelarIngresoEmpleado
+            // 
+            this.btnCancelarIngresoEmpleado.Location = new System.Drawing.Point(300, 269);
+            this.btnCancelarIngresoEmpleado.Name = "btnCancelarIngresoEmpleado";
+            this.btnCancelarIngresoEmpleado.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelarIngresoEmpleado.TabIndex = 13;
+            this.btnCancelarIngresoEmpleado.Text = "Cancelar";
+            this.btnCancelarIngresoEmpleado.UseVisualStyleBackColor = true;
+            this.btnCancelarIngresoEmpleado.Click += new System.EventHandler(this.BtnCancelarIngresoEmpleado_Click);
+            // 
             // INGRESO_DE_EMPLEADO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(463, 386);
+            this.Controls.Add(this.btnCancelarIngresoEmpleado);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAgregarEmpleado);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -189,12 +201,13 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAgregarEmpleado;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Button btnCancelarIngresoEmpleado;
     }
 }

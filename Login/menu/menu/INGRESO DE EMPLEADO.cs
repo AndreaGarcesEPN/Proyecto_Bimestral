@@ -26,5 +26,12 @@ namespace menu
         {
 
         }
+
+        private void BtnCancelarIngresoEmpleado_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+
+        }
     }
 }

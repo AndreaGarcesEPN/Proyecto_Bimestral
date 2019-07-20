@@ -10,16 +10,13 @@ using System.Windows.Forms;
 
 namespace menu
 {
-    public partial class ConsultaDeEmpleado : Form
+    public partial class EliminarEmpleado : Form
     {
-        public ConsultaDeEmpleado()
-        {
-            InitializeComponent();
-        }
+       
 
-        private void BtnCancelarConsulta_Click(object sender, EventArgs e)
+        private void TextBox1_TextChanged(object sender, EventArgs e)
         {
-            this.Close();
+
         }
     }
 }

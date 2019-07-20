@@ -20,3 +20,5 @@ D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.pdb
 D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.INGRESO_DE_EMPLEADO.resources
 D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.ConsultaDeEmpleado.resources
 D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.MenuPrincipal.resources
+D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.EliminarEmpleado.resources
+D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\Proyecto_Login.Form1.resources
