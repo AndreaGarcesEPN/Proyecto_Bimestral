@@ -20,6 +20,12 @@ namespace menu
         private void BtnCancelarConsulta_Click(object sender, EventArgs e)
         {
             this.Close();
+            
+        }
+
+        private void ConsultaDeEmpleado_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

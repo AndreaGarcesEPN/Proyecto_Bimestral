@@ -37,6 +37,7 @@
             this.Contraseña = new System.Windows.Forms.Label();
             this.imgUsuario = new System.Windows.Forms.PictureBox();
             this.ImgContraseña = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.imgUsuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgContraseña)).BeginInit();
             this.SuspendLayout();
@@ -57,7 +58,7 @@
             // BtnIngresar
             // 
             this.BtnIngresar.BackColor = System.Drawing.Color.Transparent;
-            this.BtnIngresar.Location = new System.Drawing.Point(151, 148);
+            this.BtnIngresar.Location = new System.Drawing.Point(135, 148);
             this.BtnIngresar.Name = "BtnIngresar";
             this.BtnIngresar.Size = new System.Drawing.Size(75, 23);
             this.BtnIngresar.TabIndex = 10;
@@ -124,6 +125,15 @@
             this.ImgContraseña.TabIndex = 13;
             this.ImgContraseña.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(261, 148);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(66, 23);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Invitado";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -132,6 +142,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(359, 227);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.ImgContraseña);
             this.Controls.Add(this.imgUsuario);
             this.Controls.Add(this.checkMostrar);
@@ -165,6 +176,7 @@
         private System.Windows.Forms.Label Contraseña;
         private System.Windows.Forms.PictureBox imgUsuario;
         private System.Windows.Forms.PictureBox ImgContraseña;
+        private System.Windows.Forms.Button button1;
     }
 }
 

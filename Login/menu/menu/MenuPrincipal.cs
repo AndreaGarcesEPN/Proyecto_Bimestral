@@ -47,7 +47,7 @@ namespace menu
             Form1 login = new Form1();
             login.Show();
             this.Dispose();//elimina o limpia servicios qque se esten usando
-
+                           
 
         }
     }
