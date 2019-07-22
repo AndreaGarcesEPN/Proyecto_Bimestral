@@ -71,5 +71,10 @@ namespace Proyecto_Login
                 textBoxClave.Text = clave;
             }
         }
+
+       
+        
+
+        
     }
 }

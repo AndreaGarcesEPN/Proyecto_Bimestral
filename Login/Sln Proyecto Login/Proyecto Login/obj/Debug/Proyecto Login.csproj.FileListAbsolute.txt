@@ -22,3 +22,17 @@ D:\Proyectos progra\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\b
 D:\Proyectos progra\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\bin\Debug\menu.pdb
 D:\Proyectos progra\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\bin\Debug\menu.exe.config
 D:\Proyectos progra\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\obj\Debug\Proyecto Login.csproj.CopyComplete
+C:\TEMP\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\bin\Debug\Proyecto Login.exe.config
+C:\TEMP\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\bin\Debug\Proyecto Login.exe
+C:\TEMP\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\bin\Debug\Proyecto Login.pdb
+C:\TEMP\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\bin\Debug\menu.exe
+C:\TEMP\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\bin\Debug\menu.pdb
+C:\TEMP\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\bin\Debug\menu.exe.config
+C:\TEMP\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\obj\Debug\Proyecto Login.csprojAssemblyReference.cache
+C:\TEMP\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\obj\Debug\Proyecto_Login.Form1.resources
+C:\TEMP\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\obj\Debug\Proyecto_Login.Properties.Resources.resources
+C:\TEMP\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\obj\Debug\Proyecto Login.csproj.GenerateResource.cache
+C:\TEMP\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\obj\Debug\Proyecto Login.csproj.CoreCompileInputs.cache
+C:\TEMP\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\obj\Debug\Proyecto Login.csproj.CopyComplete
+C:\TEMP\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\obj\Debug\Proyecto Login.exe
+C:\TEMP\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\obj\Debug\Proyecto Login.pdb

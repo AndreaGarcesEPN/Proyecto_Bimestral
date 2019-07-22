@@ -22,3 +22,17 @@ D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.ConsultaDe
 D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.MenuPrincipal.resources
 D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.EliminarEmpleado.resources
 D:\Proyectos progra\Proyecto_Bimestral\Login\menu\menu\obj\Debug\Proyecto_Login.Form1.resources
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\bin\Debug\menu.exe.config
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\bin\Debug\menu.exe
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\bin\Debug\menu.pdb
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.csprojAssemblyReference.cache
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.ConsultaDeEmpleado.resources
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.EliminarEmpleado.resources
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\Proyecto_Login.Form1.resources
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.MenuPrincipal.resources
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.INGRESO_DE_EMPLEADO.resources
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.Properties.Resources.resources
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.csproj.GenerateResource.cache
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.csproj.CoreCompileInputs.cache
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.exe
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.pdb

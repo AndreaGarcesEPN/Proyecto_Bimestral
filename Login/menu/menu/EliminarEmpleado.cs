@@ -12,11 +12,11 @@ namespace menu
 {
     public partial class EliminarEmpleado : Form
     {
-       
-
-        private void TextBox1_TextChanged(object sender, EventArgs e)
+        public EliminarEmpleado()
         {
-
+            InitializeComponent();
         }
+
+        
     }
 }

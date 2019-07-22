@@ -33,9 +33,8 @@ namespace menu
 
         private void BtnEliminarEmpleado_Click(object sender, EventArgs e)
         { // abre el menu de eliminar empleado
-            Form eliminarempleado = new EliminarEmpleado();
-            eliminarempleado.Visible = true;
-            
+            Form eliminarEmpleado = new EliminarEmpleado();
+            eliminarEmpleado.Visible=true;
         }
 
 
@@ -43,8 +42,8 @@ namespace menu
         //copie la fomr1 que es el login a la solucion menu caso contrario no encontraba la clase 
          private void Button7_Click(object sender, EventArgs e)
         {
-            
-            Form1 login = new Form1();
+
+            Form login = new Form1();
             login.Show();
             this.Dispose();//elimina o limpia servicios qque se esten usando
                            
