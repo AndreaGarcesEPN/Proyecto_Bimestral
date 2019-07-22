@@ -100,13 +100,14 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "CERRAR  SESION ADMINISTRADOR";
             this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.Button7_Click);
+            this.button7.Click += new System.EventHandler(this.BtnCerrarSesion_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Lucida Handwriting", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(112, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(291, 21);

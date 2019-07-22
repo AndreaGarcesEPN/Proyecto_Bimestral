@@ -36,3 +36,4 @@ C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.csproj.GenerateResourc
 C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.csproj.CoreCompileInputs.cache
 C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.exe
 C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.pdb
+C:\TEMP\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.ModificarEmpleado.resources

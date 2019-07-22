@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace menu
 {
-    public partial class EliminarEmpleado : Form
+    public partial class ModificarEmpleado : Form
     {
-        public EliminarEmpleado()
+        public ModificarEmpleado()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(" empleado eliminado ");
-
-
         }
     }
 }

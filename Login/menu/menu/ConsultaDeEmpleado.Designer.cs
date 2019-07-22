@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txbConsultaEmpleado = new System.Windows.Forms.TextBox();
+            this.txbConsultaCedula = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Detalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnConsultarEmpleado = new System.Windows.Forms.Button();
+            this.bntNuevaConsulta = new System.Windows.Forms.Button();
             this.btnCancelarConsulta = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -48,12 +48,12 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Cedula de Identidad:";
             // 
-            // txbConsultaEmpleado
+            // txbConsultaCedula
             // 
-            this.txbConsultaEmpleado.Location = new System.Drawing.Point(158, 70);
-            this.txbConsultaEmpleado.Name = "txbConsultaEmpleado";
-            this.txbConsultaEmpleado.Size = new System.Drawing.Size(100, 20);
-            this.txbConsultaEmpleado.TabIndex = 1;
+            this.txbConsultaCedula.Location = new System.Drawing.Point(158, 70);
+            this.txbConsultaCedula.Name = "txbConsultaCedula";
+            this.txbConsultaCedula.Size = new System.Drawing.Size(100, 20);
+            this.txbConsultaCedula.TabIndex = 1;
             // 
             // dataGridView1
             // 
@@ -81,23 +81,23 @@
             this.Detalle.Name = "Detalle";
             this.Detalle.ReadOnly = true;
             // 
-            // button1
+            // btnConsultarEmpleado
             // 
-            this.button1.Location = new System.Drawing.Point(66, 273);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Consultar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnConsultarEmpleado.Location = new System.Drawing.Point(66, 273);
+            this.btnConsultarEmpleado.Name = "btnConsultarEmpleado";
+            this.btnConsultarEmpleado.Size = new System.Drawing.Size(75, 23);
+            this.btnConsultarEmpleado.TabIndex = 3;
+            this.btnConsultarEmpleado.Text = "Consultar";
+            this.btnConsultarEmpleado.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // bntNuevaConsulta
             // 
-            this.button2.Location = new System.Drawing.Point(158, 273);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(133, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Nueva Consulta";
-            this.button2.UseVisualStyleBackColor = true;
+            this.bntNuevaConsulta.Location = new System.Drawing.Point(158, 273);
+            this.bntNuevaConsulta.Name = "bntNuevaConsulta";
+            this.bntNuevaConsulta.Size = new System.Drawing.Size(133, 23);
+            this.bntNuevaConsulta.TabIndex = 4;
+            this.bntNuevaConsulta.Text = "Nueva Consulta";
+            this.bntNuevaConsulta.UseVisualStyleBackColor = true;
             // 
             // btnCancelarConsulta
             // 
@@ -115,10 +115,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(479, 348);
             this.Controls.Add(this.btnCancelarConsulta);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.bntNuevaConsulta);
+            this.Controls.Add(this.btnConsultarEmpleado);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.txbConsultaEmpleado);
+            this.Controls.Add(this.txbConsultaCedula);
             this.Controls.Add(this.label1);
             this.Name = "ConsultaDeEmpleado";
             this.Text = "ConsultaDeEmpleado";
@@ -132,12 +132,12 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txbConsultaEmpleado;
+        private System.Windows.Forms.TextBox txbConsultaCedula;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Tipo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Detalle;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnConsultarEmpleado;
+        private System.Windows.Forms.Button bntNuevaConsulta;
         private System.Windows.Forms.Button btnCancelarConsulta;
     }
 }

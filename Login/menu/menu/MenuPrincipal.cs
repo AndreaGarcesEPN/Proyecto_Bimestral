@@ -40,13 +40,13 @@ namespace menu
 
         //para cerrar sesion y volver al login
         //copie la fomr1 que es el login a la solucion menu caso contrario no encontraba la clase 
-         private void Button7_Click(object sender, EventArgs e)
-        {
+        
 
+        private void BtnCerrarSesion_Click(object sender, EventArgs e)
+        {
             Form login = new Form1();
             login.Show();
             this.Dispose();//elimina o limpia servicios qque se esten usando
-                           
 
         }
     }
