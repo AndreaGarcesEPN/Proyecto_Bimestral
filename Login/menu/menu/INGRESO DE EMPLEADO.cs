@@ -45,8 +45,12 @@ namespace menu
                 string apellidos = txbIngresoApellidos.Text;
                 string telfCelular = txbIngresoTelfCelular.Text;
                 string telfConvencional = txbIngresoTelfConvencional.Text;
+                string diaNacimiento = cmbDia.Text;
+                string mesNacimiento = cmbMes.Text;
+                string anioNacimiento = cmbAnio.Text;
                 string datosEmpleado = "Cedula: " + cedula + " - Nombres: " + nombres + " - Apellidos: " + apellidos + " - Teléfono Celular: "
-                    + telfCelular + " - Teléfono Convencional: " + telfConvencional;
+                    + telfCelular + " - Teléfono Convencional: " + telfConvencional + " - Fecha de nacimiento: " + diaNacimiento
+                    + " / " + mesNacimiento + " / " + anioNacimiento;
                 string[] registroArray = File.ReadAllLines(path);
                 String registroFinal = File.ReadAllText(path);
                 StreamWriter escritura = File.CreateText(path);
@@ -57,25 +61,6 @@ namespace menu
             {
 
             }
-            /*try
-            {
-                string cedula = txbIngresocedula.Text;
-                string nombres = txbIngresoNombres.Text;
-                string apellidos = txbIngresoApellidos.Text;
-                string telfCelular = txbIngresoTelfCelular.Text;
-                string telfConvencional = txbIngresoTelfConvencional.Text;
-                string datosEmpleado = "Cedula: " + cedula + " - Nombres: " + nombres + " - Apellidos: " + apellidos + " - Teléfono Celular: "
-                    + telfCelular + " - Teléfono Convencional: " + telfConvencional;
-                string[] registroArray = File.ReadAllLines(path);
-                String registroFinal = File.ReadAllText(path);
-                StreamWriter escritura = File.CreateText(path);
-                escritura.WriteLine(registroFinal + datosEmpleado);
-                escritura.Close();
-            }
-            catch (Exception)
-            {
-
-            }*/
         }
     }
 }

@@ -44,9 +44,9 @@
             this.txbIngresoDireccionDomicilio = new System.Windows.Forms.TextBox();
             this.btnCancelarIngresoEmpleado = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cmbDia = new System.Windows.Forms.ComboBox();
+            this.cmbMes = new System.Windows.Forms.ComboBox();
+            this.cmbAnio = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -199,10 +199,10 @@
             this.label7.TabIndex = 14;
             this.label7.Text = "Fecha Nacimiento :";
             // 
-            // comboBox1
+            // cmbDia
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbDia.FormattingEnabled = true;
+            this.cmbDia.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
@@ -234,15 +234,15 @@
             "29",
             "30",
             "31"});
-            this.comboBox1.Location = new System.Drawing.Point(181, 205);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(50, 21);
-            this.comboBox1.TabIndex = 6;
+            this.cmbDia.Location = new System.Drawing.Point(181, 205);
+            this.cmbDia.Name = "cmbDia";
+            this.cmbDia.Size = new System.Drawing.Size(50, 21);
+            this.cmbDia.TabIndex = 6;
             // 
-            // comboBox2
+            // cmbMes
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cmbMes.FormattingEnabled = true;
+            this.cmbMes.Items.AddRange(new object[] {
             "Enero",
             "Febrero",
             "Marzo",
@@ -255,15 +255,15 @@
             "Octubre",
             "Noviembre",
             "Diciembre"});
-            this.comboBox2.Location = new System.Drawing.Point(237, 205);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(100, 21);
-            this.comboBox2.TabIndex = 7;
+            this.cmbMes.Location = new System.Drawing.Point(237, 205);
+            this.cmbMes.Name = "cmbMes";
+            this.cmbMes.Size = new System.Drawing.Size(100, 21);
+            this.cmbMes.TabIndex = 7;
             // 
-            // comboBox3
+            // cmbAnio
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cmbAnio.FormattingEnabled = true;
+            this.cmbAnio.Items.AddRange(new object[] {
             "2019",
             "2018",
             "2017",
@@ -324,10 +324,10 @@
             "1962",
             "1961",
             "1960"});
-            this.comboBox3.Location = new System.Drawing.Point(343, 205);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(50, 21);
-            this.comboBox3.TabIndex = 8;
+            this.cmbAnio.Location = new System.Drawing.Point(343, 205);
+            this.cmbAnio.Name = "cmbAnio";
+            this.cmbAnio.Size = new System.Drawing.Size(50, 21);
+            this.cmbAnio.TabIndex = 8;
             // 
             // INGRESO_DE_EMPLEADO
             // 
@@ -337,9 +337,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(444, 320);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbAnio);
+            this.Controls.Add(this.cmbMes);
+            this.Controls.Add(this.cmbDia);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnCancelarIngresoEmpleado);
             this.Controls.Add(this.txbIngresoDireccionDomicilio);
@@ -381,8 +381,8 @@
         private System.Windows.Forms.TextBox txbIngresoDireccionDomicilio;
         private System.Windows.Forms.Button btnCancelarIngresoEmpleado;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cmbDia;
+        private System.Windows.Forms.ComboBox cmbMes;
+        private System.Windows.Forms.ComboBox cmbAnio;
     }
 }
