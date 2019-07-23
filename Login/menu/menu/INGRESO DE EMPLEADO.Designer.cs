@@ -128,6 +128,7 @@
             this.btnAgregarEmpleado.TabIndex = 6;
             this.btnAgregarEmpleado.Text = "Agregar";
             this.btnAgregarEmpleado.UseVisualStyleBackColor = true;
+            this.btnAgregarEmpleado.Click += new System.EventHandler(this.btnAgregarEmpleado_Click);
             // 
             // txbIngresocedula
             // 
