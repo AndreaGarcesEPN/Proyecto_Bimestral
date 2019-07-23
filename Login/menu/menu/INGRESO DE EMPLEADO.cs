@@ -34,8 +34,8 @@ namespace menu
 
 
         }
-        //string path = @"C:\TEMP\Proyecto_Bimestral\Login\empleados\empleados.txt";
-        string path = @"C:\Prueba\empleados.txt";
+        string path = @"C:\TEMP\Proyecto_Bimestral\Login\empleados\empleados.txt";
+        //string path = @"C:\Prueba\empleados.txt";
         private void btnAgregarEmpleado_Click(object sender, EventArgs e)
         {
             try
