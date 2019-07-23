@@ -75,6 +75,7 @@
             this.btnModificarEmpleado.TabIndex = 2;
             this.btnModificarEmpleado.Text = "MODIFICAR EMPLEADO";
             this.btnModificarEmpleado.UseVisualStyleBackColor = false;
+            this.btnModificarEmpleado.Click += new System.EventHandler(this.btnModificarEmpleado_Click);
             // 
             // btnConsultalEmpleado
             // 

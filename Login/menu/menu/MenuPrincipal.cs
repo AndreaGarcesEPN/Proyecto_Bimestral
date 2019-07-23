@@ -49,5 +49,10 @@ namespace menu
             this.Dispose();//elimina o limpia servicios qque se esten usando
 
         }
+
+        private void btnModificarEmpleado_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
