@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConsultaDeEmpleado));
             this.label1 = new System.Windows.Forms.Label();
             this.txbConsultaCedula = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -42,6 +43,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.Cyan;
             this.label1.Location = new System.Drawing.Point(36, 70);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(105, 13);
@@ -89,6 +92,7 @@
             this.btnConsultarEmpleado.TabIndex = 3;
             this.btnConsultarEmpleado.Text = "Consultar";
             this.btnConsultarEmpleado.UseVisualStyleBackColor = true;
+            this.btnConsultarEmpleado.Click += new System.EventHandler(this.btnConsultarEmpleado_Click);
             // 
             // bntNuevaConsulta
             // 
@@ -113,6 +117,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(479, 348);
             this.Controls.Add(this.btnCancelarConsulta);
             this.Controls.Add(this.bntNuevaConsulta);
@@ -120,6 +126,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txbConsultaCedula);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "ConsultaDeEmpleado";
             this.Text = "ConsultaDeEmpleado";
             this.Load += new System.EventHandler(this.ConsultaDeEmpleado_Load);
