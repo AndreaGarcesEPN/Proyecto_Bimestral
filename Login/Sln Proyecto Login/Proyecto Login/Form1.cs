@@ -25,9 +25,9 @@ namespace Proyecto_Login
         private void BtnIngresar_Click(object sender, EventArgs e)
         {
             string usuario = textBoxUsuario.Text;
-            string usuario_valido = "prueba@correo.com";
+            string usuario_valido = "1";
             string clave = textBoxClave.Text;
-            string clave_valida = "clavedeprueba";
+            string clave_valida = "1";
             if (String.Compare(usuario, usuario_valido) != 0 || String.Compare(clave, clave_valida) != 0)
             {
                 string txtincorrecto = "Error";

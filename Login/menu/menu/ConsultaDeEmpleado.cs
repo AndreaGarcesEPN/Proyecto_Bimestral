@@ -13,7 +13,8 @@ namespace menu
 {
     public partial class ConsultaDeEmpleado : Form
     {
-        string path = @"C:\TEMP\Proyecto_Bimestral\Login\empleados\empleados.txt";
+       // string path = @"C:\TEMP\Proyecto_Bimestral\Login\empleados\empleados.txt";
+        string path = @"C:\prueba\empleados.txt";
         void Escribir(string tipo, string log, DataGridView dgv)
         {
             int posicionNuevoLog = dgv.Rows.Add();
@@ -48,7 +49,7 @@ namespace menu
 
         private void btnConsultarEmpleado_Click(object sender, EventArgs e)
         {
-            string[] registroArray = File.ReadAllLines(path);
+            string[] registroArray = File.ReadLines(path);
             foreach (string registro in registroArray)
             {
                 Escribir("Info", registro, dvgConsulta);
