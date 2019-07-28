@@ -49,11 +49,7 @@ namespace menu
 
         private void btnConsultarEmpleado_Click(object sender, EventArgs e)
         {
-            string[] registroArray = File.ReadLines(path);
-            foreach (string registro in registroArray)
-            {
-                Escribir("Info", registro, dvgConsulta);
-            }
+           
         }
 
 

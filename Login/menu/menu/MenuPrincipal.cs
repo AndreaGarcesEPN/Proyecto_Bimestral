@@ -52,7 +52,9 @@ namespace menu
 
         private void btnModificarEmpleado_Click(object sender, EventArgs e)
         {
-
+            Form editar = new EditarEmpleado();
+            editar.Show();
+            
         }
     }
 }
