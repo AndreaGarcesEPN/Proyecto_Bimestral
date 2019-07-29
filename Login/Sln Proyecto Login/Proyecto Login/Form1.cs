@@ -100,7 +100,19 @@ namespace Proyecto_Login
             }
         }
 
-
-        
+        private void checkMostrar_CheckedChanged_1(object sender, EventArgs e)
+        {
+            string clave = textBoxClave.Text;
+            if (checkMostrar.Checked)
+            {
+                textBoxClave.UseSystemPasswordChar = false;
+                textBoxClave.Text = clave;
+            }
+            else
+            {
+                textBoxClave.UseSystemPasswordChar = true;
+                textBoxClave.Text = clave;
+            }
+        }
     }
 }

@@ -53,7 +53,8 @@
             this.checkMostrar.TabIndex = 11;
             this.checkMostrar.Text = "Mostrar Clave";
             this.checkMostrar.UseVisualStyleBackColor = false;
-           
+            this.checkMostrar.CheckedChanged += new System.EventHandler(this.checkMostrar_CheckedChanged_1);
+            // 
             // BtnIngresar
             // 
             this.BtnIngresar.BackColor = System.Drawing.Color.Transparent;
