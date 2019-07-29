@@ -32,11 +32,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txbConsultaCedula = new System.Windows.Forms.TextBox();
             this.dvgConsulta = new System.Windows.Forms.DataGridView();
-            this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Detalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnConsultarEmpleado = new System.Windows.Forms.Button();
             this.bntNuevaConsulta = new System.Windows.Forms.Button();
             this.btnCancelarConsulta = new System.Windows.Forms.Button();
+            this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Detalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dvgConsulta)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,24 +66,13 @@
             this.dvgConsulta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dvgConsulta.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Tipo,
-            this.Detalle});
+            this.Detalle,
+            this.nombre});
             this.dvgConsulta.Location = new System.Drawing.Point(12, 96);
             this.dvgConsulta.Name = "dvgConsulta";
             this.dvgConsulta.ReadOnly = true;
             this.dvgConsulta.Size = new System.Drawing.Size(556, 150);
             this.dvgConsulta.TabIndex = 2;
-            // 
-            // Tipo
-            // 
-            this.Tipo.HeaderText = "TIPO";
-            this.Tipo.Name = "Tipo";
-            this.Tipo.ReadOnly = true;
-            // 
-            // Detalle
-            // 
-            this.Detalle.HeaderText = "Detalles";
-            this.Detalle.Name = "Detalle";
-            this.Detalle.ReadOnly = true;
             // 
             // btnConsultarEmpleado
             // 
@@ -113,6 +103,24 @@
             this.btnCancelarConsulta.UseVisualStyleBackColor = true;
             this.btnCancelarConsulta.Click += new System.EventHandler(this.BtnCancelarConsulta_Click);
             // 
+            // Tipo
+            // 
+            this.Tipo.HeaderText = "TIPO";
+            this.Tipo.Name = "Tipo";
+            this.Tipo.ReadOnly = true;
+            // 
+            // Detalle
+            // 
+            this.Detalle.HeaderText = "Detalles";
+            this.Detalle.Name = "Detalle";
+            this.Detalle.ReadOnly = true;
+            // 
+            // nombre
+            // 
+            this.nombre.HeaderText = "Column1";
+            this.nombre.Name = "nombre";
+            this.nombre.ReadOnly = true;
+            // 
             // ConsultaDeEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -141,10 +149,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txbConsultaCedula;
         private System.Windows.Forms.DataGridView dvgConsulta;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Tipo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Detalle;
         private System.Windows.Forms.Button btnConsultarEmpleado;
         private System.Windows.Forms.Button bntNuevaConsulta;
         private System.Windows.Forms.Button btnCancelarConsulta;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Tipo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Detalle;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
     }
 }

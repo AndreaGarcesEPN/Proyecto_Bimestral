@@ -15,20 +15,7 @@ namespace menu
     {
        // string path = @"C:\TEMP\Proyecto_Bimestral\Login\empleados\empleados.txt";
         string path = @"C:\prueba\empleados.txt";
-        void Escribir(string tipo, string log, DataGridView dgv)
-        {
-            int posicionNuevoLog = dgv.Rows.Add();
-            dgv.Rows[posicionNuevoLog].Cells[0].Value = tipo;
-            dgv.Rows[posicionNuevoLog].Cells[1].Value = log;
-            if (tipo == "Error")
-            {
-                dgv.Rows[posicionNuevoLog].Cells[0].Style.BackColor = Color.Red;
-            }
-            else
-            {
-                dgv.Rows[posicionNuevoLog].Cells[0].Style.BackColor = Color.Aquamarine;
-            }
-        }
+       
 
 
         public ConsultaDeEmpleado()
@@ -49,6 +36,7 @@ namespace menu
 
         private void btnConsultarEmpleado_Click(object sender, EventArgs e)
         {
+           
            
         }
 

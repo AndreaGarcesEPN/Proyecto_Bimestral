@@ -18,7 +18,7 @@ namespace menu
             InitializeComponent();
         }
 
-        string path = @"C:\Prueba\empleados.txt";
+        string path = @"C:\prueba\empleados.txt";
 
 
 
@@ -43,6 +43,8 @@ namespace menu
             
             try
             {
+                File.OpenText(path);
+
                 string cedula = txbEditarcedula.Text;
                 string nombres = txbEditarNombres.Text;
                 string apellidos = txbEditarApellidos.Text;
@@ -51,14 +53,16 @@ namespace menu
                 string diaNacimiento = cmbDiaEditar.Text;
                 string mesNacimiento = cmbMesEditar.Text;
                 string anioNacimiento = cmbAnioEditar.Text;
-                int idcedulaint = Int32.Parse(cedula);
-                String[] registroArray = File.ReadAllLines(path);
-                int finalcad = registroArray[idcedulaint].Length;
-                string datosEmpleado = "Cedula: " + cedula + " - Nombres: " + nombres + " - Apellidos: " + apellidos + " - Teléfono Celular: " + telfCelular + " - Teléfono Convencional: " + telfConvencional + " - Fecha de nacimiento: " + diaNacimiento
+                string datosEmpleado = "Cedula: " + cedula + " - Nombres: " + nombres + " - Apellidos: " + apellidos + " - Teléfono Celular: "
+                    + telfCelular + " - Teléfono Convencional: " + telfConvencional + " - Fecha de nacimiento: " + diaNacimiento
                     + " / " + mesNacimiento + " / " + anioNacimiento;
-                registroArray[idcedulaint] = registroArray[idcedulaint].Replace(registroArray[idcedulaint], datosEmpleado);
-                File.Delete(path);
-                File.WriteAllLines(path, registroArray);
+                
+               
+             
+                //StreamWriter escritura = File.ReadLines(path);
+                //escritura.WriteLine(registroFinal + datosEmpleado + "\n");
+                //escritura.Close();
+
             }
             catch (Exception)
             {
