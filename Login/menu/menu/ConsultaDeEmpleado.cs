@@ -13,9 +13,9 @@ namespace menu
 {
     public partial class ConsultaDeEmpleado : Form
     {
-       // string path = @"C:\TEMP\Proyecto_Bimestral\Login\empleados\empleados.txt";
+        // string path = @"C:\TEMP\Proyecto_Bimestral\Login\empleados\empleados.txt";
         //string path = @"C:\prueba\empleados.txt";
-       
+
 
 
         public ConsultaDeEmpleado()
@@ -36,7 +36,7 @@ namespace menu
             }
             else
             {
-                dgv.Rows[posicionNuevoLog].Cells[0].Style.BackColor = Color.Aquamarine;
+                dgv.Rows[posicionNuevoLog].Cells[0].Style.BackColor = Color.Yellow;
             }
         }
 
@@ -57,6 +57,7 @@ namespace menu
             foreach (string registro in registroArray)
             {
                 Escribir("Info", registro, dvgConsulta);
+
             }
 
         }
@@ -65,7 +66,34 @@ namespace menu
         {
             txbConsultaCedula.Text = null;
         }
+
+
+        void DataGridView1CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+            DataGridViewTextBoxCell celdaTipo =
+                (DataGridViewTextBoxCell)dvgConsulta.Rows[e.RowIndex].Cells[0];
+            DataGridViewTextBoxCell celdaLog =
+                (DataGridViewTextBoxCell)dvgConsulta.Rows[e.RowIndex].Cells[1];
+
+            if (celdaTipo.Value != null)
+            {
+                string tipo = celdaTipo.Value.ToString();
+                string log = celdaLog.Value.ToString();
+                MessageBoxIcon icono;
+                if (tipo == "error")
+                {
+                    icono = MessageBoxIcon.Information;
+                }
+                else
+                {
+                    icono = MessageBoxIcon.Exclamation;
+                }
+
+                MessageBoxButtons botones = MessageBoxButtons.OK;
+                MessageBox.Show(log, tipo, botones, icono);
+            }
+        }
+
     }
 }
-
-

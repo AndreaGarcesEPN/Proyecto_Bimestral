@@ -32,11 +32,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txbConsultaCedula = new System.Windows.Forms.TextBox();
             this.dvgConsulta = new System.Windows.Forms.DataGridView();
+            this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Detalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnConsultarEmpleado = new System.Windows.Forms.Button();
             this.bntNuevaConsulta = new System.Windows.Forms.Button();
             this.btnCancelarConsulta = new System.Windows.Forms.Button();
-            this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Detalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dvgConsulta)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,6 +71,19 @@
             this.dvgConsulta.ReadOnly = true;
             this.dvgConsulta.Size = new System.Drawing.Size(566, 150);
             this.dvgConsulta.TabIndex = 2;
+            this.dvgConsulta.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1CellContentClick);
+            // 
+            // Tipo
+            // 
+            this.Tipo.HeaderText = "TIPO";
+            this.Tipo.Name = "Tipo";
+            this.Tipo.ReadOnly = true;
+            // 
+            // Detalle
+            // 
+            this.Detalle.HeaderText = "Detalles";
+            this.Detalle.Name = "Detalle";
+            this.Detalle.ReadOnly = true;
             // 
             // btnConsultarEmpleado
             // 
@@ -101,18 +114,6 @@
             this.btnCancelarConsulta.Text = "Cancelar";
             this.btnCancelarConsulta.UseVisualStyleBackColor = true;
             this.btnCancelarConsulta.Click += new System.EventHandler(this.BtnCancelarConsulta_Click);
-            // 
-            // Tipo
-            // 
-            this.Tipo.HeaderText = "TIPO";
-            this.Tipo.Name = "Tipo";
-            this.Tipo.ReadOnly = true;
-            // 
-            // Detalle
-            // 
-            this.Detalle.HeaderText = "Detalles";
-            this.Detalle.Name = "Detalle";
-            this.Detalle.ReadOnly = true;
             // 
             // ConsultaDeEmpleado
             // 
