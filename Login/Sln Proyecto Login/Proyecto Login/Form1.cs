@@ -25,6 +25,7 @@ namespace Proyecto_Login
         private void BtnIngresar_Click(object sender, EventArgs e)
         {
             string usuario = textBoxUsuario.Text;
+           
             string clave = textBoxClave.Text;
             string contraseñaadmin;
             string contraseñauser;
