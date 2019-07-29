@@ -24,21 +24,21 @@ namespace menu
             {
                 string path = @"C:\prueba\empleados.txt";
                 string id = textBox1.Text;
-                int idEntero = System.Convert.ToInt32(id);
+                //int idEntero = Convert.ToInt32(id);
                 string[] registroArray = File.ReadAllLines(path);
-
-                var a = registroArray.ToList();
-                //var z = a.Remove(id);
-                // z = z.Substring(8, 10);
-                //var k = a.IndexOf(z);
-                //var j = a.Find(x => x.Contains(x.Substring(Int32.Parse(id))));
-                //a.RemoveAt(j.First());
-                string[] emp = a.ToArray();
-                //registroArray.Contains()
-                int finalString = a[idEntero].Length;
-                a[idEntero] = a[idEntero].Replace(a[idEntero], " ");
+                int posicion = -1;
+                for (int i = 0; i < registroArray.Length; i++)
+                {
+                    if (registroArray[i].Contains(id))
+                    {
+                        posicion = i;
+                        break;
+                    }
+                }
+                int finalString = registroArray[posicion].Length;
+                registroArray[posicion] = registroArray[posicion].Replace(registroArray[posicion], " ");
                 File.Delete(path);
-                File.WriteAllLines(path, a);
+                File.WriteAllLines(path, registroArray);
                 MessageBox.Show(" Empleado eliminado ");
             }
             catch (Exception)
