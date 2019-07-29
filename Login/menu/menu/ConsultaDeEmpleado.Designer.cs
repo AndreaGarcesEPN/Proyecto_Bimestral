@@ -37,7 +37,6 @@
             this.btnCancelarConsulta = new System.Windows.Forms.Button();
             this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Detalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dvgConsulta)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,12 +65,11 @@
             this.dvgConsulta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dvgConsulta.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Tipo,
-            this.Detalle,
-            this.nombre});
+            this.Detalle});
             this.dvgConsulta.Location = new System.Drawing.Point(12, 96);
             this.dvgConsulta.Name = "dvgConsulta";
             this.dvgConsulta.ReadOnly = true;
-            this.dvgConsulta.Size = new System.Drawing.Size(556, 150);
+            this.dvgConsulta.Size = new System.Drawing.Size(566, 150);
             this.dvgConsulta.TabIndex = 2;
             // 
             // btnConsultarEmpleado
@@ -92,6 +90,7 @@
             this.bntNuevaConsulta.TabIndex = 4;
             this.bntNuevaConsulta.Text = "Nueva Consulta";
             this.bntNuevaConsulta.UseVisualStyleBackColor = true;
+            this.bntNuevaConsulta.Click += new System.EventHandler(this.BntNuevaConsulta_Click);
             // 
             // btnCancelarConsulta
             // 
@@ -99,7 +98,7 @@
             this.btnCancelarConsulta.Name = "btnCancelarConsulta";
             this.btnCancelarConsulta.Size = new System.Drawing.Size(141, 23);
             this.btnCancelarConsulta.TabIndex = 5;
-            this.btnCancelarConsulta.Text = "cancelar";
+            this.btnCancelarConsulta.Text = "Cancelar";
             this.btnCancelarConsulta.UseVisualStyleBackColor = true;
             this.btnCancelarConsulta.Click += new System.EventHandler(this.BtnCancelarConsulta_Click);
             // 
@@ -114,12 +113,6 @@
             this.Detalle.HeaderText = "Detalles";
             this.Detalle.Name = "Detalle";
             this.Detalle.ReadOnly = true;
-            // 
-            // nombre
-            // 
-            this.nombre.HeaderText = "Column1";
-            this.nombre.Name = "nombre";
-            this.nombre.ReadOnly = true;
             // 
             // ConsultaDeEmpleado
             // 
@@ -154,6 +147,5 @@
         private System.Windows.Forms.Button btnCancelarConsulta;
         private System.Windows.Forms.DataGridViewTextBoxColumn Tipo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Detalle;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
     }
 }

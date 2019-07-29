@@ -43,7 +43,7 @@
             btnIngresoEmpleado.BackColor = System.Drawing.Color.Transparent;
             btnIngresoEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             btnIngresoEmpleado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            btnIngresoEmpleado.Location = new System.Drawing.Point(62, 74);
+            btnIngresoEmpleado.Location = new System.Drawing.Point(37, 74);
             btnIngresoEmpleado.Name = "btnIngresoEmpleado";
             btnIngresoEmpleado.Size = new System.Drawing.Size(173, 23);
             btnIngresoEmpleado.TabIndex = 0;
@@ -56,7 +56,7 @@
             this.btnEliminarEmpleado.BackColor = System.Drawing.Color.Transparent;
             this.btnEliminarEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminarEmpleado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnEliminarEmpleado.Location = new System.Drawing.Point(62, 149);
+            this.btnEliminarEmpleado.Location = new System.Drawing.Point(37, 149);
             this.btnEliminarEmpleado.Name = "btnEliminarEmpleado";
             this.btnEliminarEmpleado.Size = new System.Drawing.Size(173, 23);
             this.btnEliminarEmpleado.TabIndex = 1;
@@ -69,7 +69,7 @@
             this.btnModificarEmpleado.BackColor = System.Drawing.Color.Transparent;
             this.btnModificarEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModificarEmpleado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnModificarEmpleado.Location = new System.Drawing.Point(312, 149);
+            this.btnModificarEmpleado.Location = new System.Drawing.Point(300, 149);
             this.btnModificarEmpleado.Name = "btnModificarEmpleado";
             this.btnModificarEmpleado.Size = new System.Drawing.Size(168, 23);
             this.btnModificarEmpleado.TabIndex = 2;
@@ -82,11 +82,11 @@
             this.btnConsultalEmpleado.BackColor = System.Drawing.Color.Transparent;
             this.btnConsultalEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConsultalEmpleado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnConsultalEmpleado.Location = new System.Drawing.Point(312, 74);
+            this.btnConsultalEmpleado.Location = new System.Drawing.Point(300, 74);
             this.btnConsultalEmpleado.Name = "btnConsultalEmpleado";
             this.btnConsultalEmpleado.Size = new System.Drawing.Size(168, 23);
             this.btnConsultalEmpleado.TabIndex = 3;
-            this.btnConsultalEmpleado.Text = "CONSULTAR EMPLEDADO";
+            this.btnConsultalEmpleado.Text = "CONSULTAR EMPLEADO";
             this.btnConsultalEmpleado.UseVisualStyleBackColor = false;
             this.btnConsultalEmpleado.Click += new System.EventHandler(this.BtnConsultalEmpleado_Click);
             // 
@@ -95,11 +95,11 @@
             this.button7.BackColor = System.Drawing.Color.Transparent;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.ForeColor = System.Drawing.Color.Azure;
-            this.button7.Location = new System.Drawing.Point(284, 216);
+            this.button7.Location = new System.Drawing.Point(148, 215);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(210, 23);
             this.button7.TabIndex = 6;
-            this.button7.Text = "CERRAR  SESION ADMINISTRADOR";
+            this.button7.Text = "CERRAR SESION ADMINISTRADOR";
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.BtnCerrarSesion_Click);
             // 
