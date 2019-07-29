@@ -22,8 +22,8 @@ namespace menu
         {
             try
             {
-                //string path = @"C:\prueba\empleados.txt";
-                string path = @"D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\empleados\empleados.txt";
+               // string path = @"C:\prueba\empleados.txt";
+               string path = @"D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\empleados\empleados.txt";
                 string id = textBox1.Text;
                 //int idEntero = Convert.ToInt32(id);
                 string[] registroArray = File.ReadAllLines(path);

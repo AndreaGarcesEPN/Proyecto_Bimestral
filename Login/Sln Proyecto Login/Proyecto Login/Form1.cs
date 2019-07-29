@@ -59,8 +59,8 @@ namespace Proyecto_Login
 
                     if (clave.Equals(contraseñauser))
                     {
-                        MenuPrincipal menu = new MenuPrincipal();
-                        menu.Visible = true;
+                        ConsultaDeEmpleado menuempleado = new ConsultaDeEmpleado();
+                        menuempleado.Visible = true;
                         Visible = false;
                     }
                     else
@@ -77,9 +77,7 @@ namespace Proyecto_Login
 
         
 
-
     }
-
 
 
         private void TextBoxClave_TextChanged(object sender, EventArgs e)
@@ -102,8 +100,6 @@ namespace Proyecto_Login
             }
         }
 
-       
-        
 
         
     }

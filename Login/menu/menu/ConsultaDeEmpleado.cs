@@ -24,7 +24,7 @@ namespace menu
         }
 
         // string path = @"C:\TEMP\Proyecto_Bimestral\Login\empleados\empleados.txt";
-        string path = @"C:\prueba\empleados.txt";
+        string path = @"D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\empleados\empleados.txt";
         void Escribir(string tipo, string log, DataGridView dgv)
         {
             int posicionNuevoLog = dgv.Rows.Add();

@@ -1,10 +1,6 @@
 ﻿Cedula:  - Nombres:  - Apellidos:  - Teléfono Celular:  - Teléfono Convencional:  - Fecha de nacimiento:  /  /
 Cedula: 170934611-6 - Nombres: TAMARA KATHERINE  - Apellidos:BRAVO ASTUDILLO  - Teléfono Celular:0987235263 - Teléfono Convencional:4353432  - Fecha de nacimiento:  /  / 
 
-Cedula:0800672552 - Nombres:JENNY ELIZABETH  - Apellidos:CÓRDOVA PALADINES  - Teléfono Celular:09342636  - Teléfono Convencional: 32324223 - Fecha de nacimiento:  /  / 
-
-Cedula:1102121850  - Nombres:JUAN RAFAEL  - Apellidos:CUENCA PERALTA   - Teléfono Celular: 0924173523 - Teléfono Convencional: 2342342342 - Fecha de nacimiento:  /  / 
-
 Cedula:0700685563  - Nombres:JULIA HERMINIA  - Apellidos:DÁVILA ÁLVAREZ - Teléfono Celular: 092537263 - Teléfono Convencional: 23423423423 - Fecha de nacimiento:  /  / 
 
 Cedula:1102739594 - Nombres:GLORIA MARGARITA   - Apellidos:MATUTE ALTAMIRANO  - Teléfono Celular:0917483726 - Teléfono Convencional:324234234  - Fecha de nacimiento:  /  / 

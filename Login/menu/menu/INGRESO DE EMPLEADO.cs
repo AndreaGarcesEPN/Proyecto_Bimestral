@@ -61,16 +61,13 @@ namespace menu
                 //File.Create(@"D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\usuarios\" + cedula + @".txt");
             
                 StreamWriter escrituraclave = File.CreateText(pathclave);
-                escrituraclave.Write( cedula + "123");
+                escrituraclave.Write( cedula);
                 escrituraclave.Close();
-                  
                
-
-
             }
             catch (Exception)
             {
-
+                
             }
         }
     }
