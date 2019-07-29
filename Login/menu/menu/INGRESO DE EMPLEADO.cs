@@ -54,8 +54,19 @@ namespace menu
                 string[] registroArray = File.ReadAllLines(path);
                 String registroFinal = File.ReadAllText(path);
                 StreamWriter escritura = File.CreateText(path);
-                escritura.WriteLine(registroFinal + datosEmpleado + "\n" );
+                escritura.WriteLine(registroFinal + datosEmpleado + "\n");
                 escritura.Close();
+
+                string pathclave = @"D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\usuarios\" + cedula + @"@miempresa.txt";
+                //File.Create(@"D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\usuarios\" + cedula + @".txt");
+            
+                StreamWriter escrituraclave = File.CreateText(pathclave);
+                escrituraclave.Write( cedula + "123");
+                escrituraclave.Close();
+                  
+               
+
+
             }
             catch (Exception)
             {

@@ -1,1 +1,31 @@
-Cedula: 1726857228 - Nombres: holas - Apellidos: cc - Teléfono Celular:  - Teléfono Convencional:  - Fecha de nacimiento:  /  / 
+﻿Cedula:  - Nombres:  - Apellidos:  - Teléfono Celular:  - Teléfono Convencional:  - Fecha de nacimiento:  /  /
+Cedula: 170934611-6 - Nombres: TAMARA KATHERINE  - Apellidos:BRAVO ASTUDILLO  - Teléfono Celular:0987235263 - Teléfono Convencional:4353432  - Fecha de nacimiento:  /  / 
+
+Cedula:0800672552 - Nombres:JENNY ELIZABETH  - Apellidos:CÓRDOVA PALADINES  - Teléfono Celular:09342636  - Teléfono Convencional: 32324223 - Fecha de nacimiento:  /  / 
+
+Cedula:1102121850  - Nombres:JUAN RAFAEL  - Apellidos:CUENCA PERALTA   - Teléfono Celular: 0924173523 - Teléfono Convencional: 2342342342 - Fecha de nacimiento:  /  / 
+
+Cedula:0700685563  - Nombres:JULIA HERMINIA  - Apellidos:DÁVILA ÁLVAREZ - Teléfono Celular: 092537263 - Teléfono Convencional: 23423423423 - Fecha de nacimiento:  /  / 
+
+Cedula:1102739594 - Nombres:GLORIA MARGARITA   - Apellidos:MATUTE ALTAMIRANO  - Teléfono Celular:0917483726 - Teléfono Convencional:324234234  - Fecha de nacimiento:  /  / 
+
+Cedula:1709520231  - Nombres:ANABEL EMMANUELLA  - Apellidos:MEDINA DIAZ  - Teléfono Celular:09354636482  - Teléfono Convencional: 2313534 - Fecha de nacimiento:  /  / 
+
+Cedula:0801068610  - Nombres:LEÓNOR AZUCENA  - Apellidos:RAMÍREZ CAMPOS  - Teléfono Celular:091857388734  - Teléfono Convencional:64578967  - Fecha de nacimiento:  /  / 
+
+Cedula:0102599305  - Nombres:LUIS GERARDO  - Apellidos:RAMOS GONZÁLEZ  - Teléfono Celular:098563998563  - Teléfono Convencional: 67432346 - Fecha de nacimiento:  /  / 
+
+Cedula:0201186715  - Nombres:MANUEL BOLÍVAR  - Apellidos:RUIZ AGUILAR  - Teléfono Celular:0911638945  - Teléfono Convencional: 5424465 - Fecha de nacimiento:  /  / 
+
+Cedula:0201186715  - Nombres:MARÍA CECILIA  - Apellidos:VIVANCO ARAUJO  - Teléfono Celular:0934732612  - Teléfono Convencional: 5346234- Fecha de nacimiento:  /  / 
+Cedula:0702182064  - Nombres: JÁTIVA AMPARITO  - Apellidos:ZUMÁRRAGA  - Teléfono Celular:0944488231  - Teléfono Convencional:235325634  - Fecha de nacimiento:  /  / 
+
+Cedula:0801231051 - Nombres:Monica Maria - Apellidos:Aria Mieles  - Teléfono Celular:0986766542 - Teléfono Convencional:2334234 - Fecha de nacimiento: 24 /05 /92
+Cedula: 1715247423 - Nombres: LUIS HUGO- Apellidos:ANDRANGO SANDOVAL- Teléfono Celular:0975635442- Teléfono Convencional: 2563487- Fecha de nacimiento:04/05/68
+Cedula:1701956250 - Nombres:ANITA SUSANA- Apellidos:ABRAHAMSOHN MANSHEIN- Teléfono Celular:0976587632- Teléfono Convencional:2564399 - Fecha de nacimiento:25/04/1989
+Cedula:1705441234- Nombres:CLARA MARIA- Apellidos:PULAMARIN CHICAIZA- Teléfono Celular:0987354674- Teléfono Convencional:2467554- Fecha de nacimiento:11/10/1979
+Cedula:1725230898- Nombres:MARY DIANE- Apellidos:HARKER- Teléfono Celular:0967577892- Teléfono Convencional:2244534- Fecha de nacimiento: 01/02/1990
+Cedula:0801231051- Nombres: Monica Maria- Apellidos:Aria Mieles- Teléfono Celular:0986766542- Teléfono Convencional:2334234- Fecha de nacimiento: 24/05/1992
+Cedula:1713381570- Nombres:SANDRA XIMENA- Apellidos:CORONEL CASTILLO- Teléfono Celular:0976688454- Teléfono Convencional:2453445- Fecha de nacimiento:01/05/1992
+Cedula:1721194429- Nombres:VIVIANA GIOCONDA- Apellidos:QUINTANA AVILA- Teléfono Celular:097688874- Teléfono Convencional:2245644- Fecha de nacimiento:29/11/1975
+
