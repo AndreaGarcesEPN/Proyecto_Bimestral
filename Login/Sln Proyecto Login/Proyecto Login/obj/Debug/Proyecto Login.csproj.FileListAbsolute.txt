@@ -64,3 +64,6 @@ D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\Sln Proyecto Log
 D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\obj\Debug\Proyecto Login.csproj.CopyComplete
 D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\obj\Debug\Proyecto Login.exe
 D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\obj\Debug\Proyecto Login.pdb
+D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\bin\Debug\Form1.resx
+D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\bin\Debug\Form1.cs
+D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\Sln Proyecto Login\Proyecto Login\bin\Debug\Form1.Designer.cs

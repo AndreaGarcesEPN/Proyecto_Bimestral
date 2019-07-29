@@ -5,13 +5,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-//usuario: prueba@correo.com
-//clave: clavedeprueba
+
 
 namespace Proyecto_Login
 {
@@ -25,30 +25,36 @@ namespace Proyecto_Login
         private void BtnIngresar_Click(object sender, EventArgs e)
         {
             string usuario = textBoxUsuario.Text;
-            string usuario_valido = "prueba@correo.com";
             string clave = textBoxClave.Text;
-            string clave_valida = "clavedeprueba";
-            if (String.Compare(usuario, usuario_valido) != 0 || String.Compare(clave, clave_valida) != 0)
+            string clave_valida;
+            string usuarios = @"D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\admin\" + usuario + @".txt";
+            if (File.Exists(usuarios))
             {
-                string txtincorrecto = "Error";
-                string incorrecto = "Usuario o clave inválida";
-                MessageBoxIcon icono = MessageBoxIcon.Error;
-                MessageBoxButtons botones = MessageBoxButtons.OK;
-                MessageBox.Show(incorrecto, txtincorrecto, botones, icono);
-                
+                clave_valida = File.ReadAllText(usuarios);
+                if (clave.Equals(clave_valida))
+                {
+                    MenuPrincipal menu = new MenuPrincipal();
+                    menu.Visible = true;
+                    Visible = false;
 
-            }else
-            { //se declara y se agrega una referencia
-                MenuPrincipal menu = new MenuPrincipal();
-                menu.Visible = true;
-                Visible=false;
-               
-        
+
+
+                }
+                else
+                {
+                    MessageBox.Show("contraseña erronea");
+                }
+
             }
-           
+            else
+            {
+                MessageBox.Show("usuario no registrado");
+            }
 
-        }
-       
+        
+
+
+    }
 
 
 

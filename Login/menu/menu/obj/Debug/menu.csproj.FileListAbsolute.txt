@@ -55,7 +55,6 @@ D:\Proyectos progra\Proyecto_Bimestral\.vs\Proyecto_Bimestral\Login\menu\menu\ob
 D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.csprojAssemblyReference.cache
 D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.ConsultaDeEmpleado.resources
 D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.EliminarEmpleado.resources
-D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\menu\menu\obj\Debug\Proyecto_Login.Form1.resources
 D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.EditarEmpleado.resources
 D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.MenuPrincipal.resources
 D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.INGRESO_DE_EMPLEADO.resources
@@ -82,3 +81,7 @@ C:\Programación\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.csproj.Genera
 C:\Programación\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.csproj.CoreCompileInputs.cache
 C:\Programación\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.exe
 C:\Programación\Proyecto_Bimestral\Login\menu\menu\obj\Debug\menu.pdb
+D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\menu\menu\bin\Debug\Form1.resx
+D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\menu\menu\bin\Debug\Form1.cs
+D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\menu\menu\bin\Debug\Form1.Designer.cs
+D:\Proyectos progra\Proyecto_Bimestral\Proyecto_Bimestral\Login\menu\menu\obj\Debug\Proyecto_Login.Form1.resources
